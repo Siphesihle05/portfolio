@@ -1,0 +1,39 @@
+.header{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    height: 5%;
+    position: absolute;
+    padding-left: 7%;
+}
+.my-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 35%;
+}
+.line {
+    border-left: 1px solid aliceblue;
+    height: 100%;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center; 
+}
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 30%;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
